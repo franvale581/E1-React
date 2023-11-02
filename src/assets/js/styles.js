@@ -289,7 +289,7 @@ transition: all 0.3s ease-out;
     }
 
 @media (max-width: 1200px) {
-    width:  25rem;
+    width:  22rem;
 }
 `
 
