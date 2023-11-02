@@ -13,7 +13,7 @@ export function FeaturedSection() {
         {/*product 1*/}        
           <FeaturedCard className="featured-card">
             <FeaturedImg className="featured-img">
-              <img src="/assets/featured/buzo-vintage-2000s.jpg" alt="Imagen del producto" />
+              <img src="../src/assets/featured/buzo-vintage-2000s.jpg" alt="Imagen del producto" />
             </FeaturedImg>
             <FeaturedInfo className="featured-info">
               <h2>Buzo Vintage 2000's</h2>
