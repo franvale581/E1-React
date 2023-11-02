@@ -13,7 +13,7 @@ export function FeaturedSection() {
         {/*product 1*/}        
           <FeaturedCard className="featured-card">
             <FeaturedImg className="featured-img">
-              <img src="../src/assets/featured/buzo-vintage-2000s.jpeg" alt="Imagen del producto" />
+              <img src="../src/assets/featured/buzo-vintage-2000s.jpg" alt="Imagen del producto" />
             </FeaturedImg>
             <FeaturedInfo className="featured-info">
               <h2>Buzo Vintage 2000's</h2>
@@ -26,7 +26,7 @@ export function FeaturedSection() {
         {/*product 2*/}
           <FeaturedCard className="featured-card">
             <FeaturedImg className="featured-img">
-              <img src="../src/assets/featured/parachute-cargo.jpeg" alt="Imagen del producto" />
+              <img src="../src/assets/featured/parachute-cargo.jpg" alt="Imagen del producto" />
             </FeaturedImg>
             <FeaturedInfo className="featured-info">
               <h2>Parachute Cargo</h2>
@@ -39,7 +39,7 @@ export function FeaturedSection() {
         {/*product 3*/}
           <FeaturedCard className="featured-card">
             <FeaturedImg className="featured-img">
-              <img src="../src/assets/featured/pollera-Y2K-jean.jpeg" alt="Imagen del producto" />
+              <img src="../src/assets/featured/pollera-Y2K-jean.jpg" alt="Imagen del producto" />
             </FeaturedImg>
             <FeaturedInfo className="featured-info">
               <h2>Pollera Y2K Jean</h2>

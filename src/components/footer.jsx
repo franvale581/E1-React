@@ -9,7 +9,7 @@ export function FooterSection() {
         <FooterContainer className='footer-container'>
 
       <FooterTop>
-        <img src="./src/assets/logo/logo-fondo.jfif" alt="logo" />
+        <img src="./src/assets/logo/logo-fondo.jpg" alt="logo" />
         <small></small>
       </FooterTop>
 

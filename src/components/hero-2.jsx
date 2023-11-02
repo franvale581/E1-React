@@ -8,7 +8,7 @@ export function SecondHero() {
         <SHeroContainer className='second-hero-container'>
   
           <SHeroImageContainer>
-            <SHeroImg src="./src/assets/logo/logo-fondo.jfif" alt="hero-logo"></SHeroImg>
+            <SHeroImg src="./src/assets/logo/logo-fondo.jpg" alt="hero-logo"></SHeroImg>
           </SHeroImageContainer>
           
           <SHeroInfoContainer>
