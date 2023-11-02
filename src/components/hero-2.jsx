@@ -1,4 +1,6 @@
 import { BoldText, SHeroContainer, SHeroImageContainer, SHeroImg, SHeroInfoContainer, SecondHeroSection } from "../assets/js/styles"
+import LogoFondo  from "../assets/images/logo/logo-fondo.jpg"
+
 
 export function SecondHero() {
     return(
@@ -8,7 +10,7 @@ export function SecondHero() {
         <SHeroContainer className='second-hero-container'>
   
           <SHeroImageContainer>
-            <SHeroImg src="./src/assets/logo/logo-fondo.jpg" alt="hero-logo"></SHeroImg>
+            <SHeroImg src={LogoFondo} alt="hero-logo"></SHeroImg>
           </SHeroImageContainer>
           
           <SHeroInfoContainer>
