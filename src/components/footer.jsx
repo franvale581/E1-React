@@ -1,5 +1,5 @@
 import { FooterBottom, FooterContainer, FooterMid, FooterTop } from "../assets/js/styles"
-import FooterLogoImg from "../assets/images/logo/logo-nav.jpg"
+import FooterLogoImg from "../assets/images/logo/logo-nav.png"
 
 
 export function FooterSection() {
