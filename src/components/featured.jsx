@@ -1,4 +1,7 @@
 import { FeaturedCard, FeaturedContainer, FeaturedProductsContainer, FeaturedImg, FeaturedInfo, FeaturedButton, FeaturedTitle } from "../assets/js/styles";
+import BuzoVintageImg from "../assets/images/featured/buzo-vintage-2000s.jpg"
+import ParachuteCargoImg from "../assets/images/featured/parachute-cargo.jpg"
+import PolleraY2kImg from "../assets/images/featured/pollera-Y2K-jean.jpg"
 
 export function FeaturedSection() {
     return (
@@ -13,7 +16,7 @@ export function FeaturedSection() {
         {/*product 1*/}        
           <FeaturedCard className="featured-card">
             <FeaturedImg className="featured-img">
-              <img src="../src/assets/featured/buzo-vintage-2000s.jpg" alt="Imagen del producto" />
+              <img src={BuzoVintageImg} alt="Imagen del producto" />
             </FeaturedImg>
             <FeaturedInfo className="featured-info">
               <h2>Buzo Vintage 2000's</h2>
@@ -26,7 +29,7 @@ export function FeaturedSection() {
         {/*product 2*/}
           <FeaturedCard className="featured-card">
             <FeaturedImg className="featured-img">
-              <img src="../src/assets/featured/parachute-cargo.jpg" alt="Imagen del producto" />
+              <img src={ParachuteCargoImg} alt="Imagen del producto" />
             </FeaturedImg>
             <FeaturedInfo className="featured-info">
               <h2>Parachute Cargo</h2>
@@ -39,7 +42,7 @@ export function FeaturedSection() {
         {/*product 3*/}
           <FeaturedCard className="featured-card">
             <FeaturedImg className="featured-img">
-              <img src="../src/assets/featured/pollera-Y2K-jean.jpg" alt="Imagen del producto" />
+              <img src={PolleraY2kImg} alt="Imagen del producto" />
             </FeaturedImg>
             <FeaturedInfo className="featured-info">
               <h2>Pollera Y2K Jean</h2>

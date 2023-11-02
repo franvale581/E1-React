@@ -1,5 +1,5 @@
 import { FooterBottom, FooterContainer, FooterMid, FooterTop } from "../assets/js/styles"
-
+import FooterLogoImg from "../assets/images/logo/logo-nav.jpg"
 
 
 export function FooterSection() {
@@ -9,7 +9,7 @@ export function FooterSection() {
         <FooterContainer className='footer-container'>
 
       <FooterTop>
-        <img src="./src/assets/logo/logo-fondo.jpg" alt="logo" />
+        <img src={FooterLogoImg} alt="logo" />
         <small></small>
       </FooterTop>
 

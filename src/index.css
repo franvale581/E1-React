@@ -163,7 +163,7 @@ html {
 /*------ Second Hero ------*/
 
 .second-hero-container {
-    background-image: url(./assets/background/hero-bg-2.jpg);
+    background-image: url(./assets/images/background/hero-bg-2.jpg);
     background-size: cover;
     transition: all 0.5s ease-out;
 }

@@ -1,4 +1,5 @@
 import { CartToggle, HeaderStyles, NavContainer, NavFeatured, NavLink, NavLogo } from "../assets/js/styles"
+import NavLogoImg from "../assets/images/logo/logo-nav.png"
 
 export function HeaderNav() {
     return(
@@ -6,7 +7,7 @@ export function HeaderNav() {
         <HeaderStyles className="header">
 
         <div className="nav-logo-container">
-            <NavLogo src="./src/assets/logo/logo-nav.png" alt="logo" className="nav-logo"/>
+            <NavLogo src={NavLogoImg} alt="logo" className="nav-logo"/>
         </div>
 
         <nav >

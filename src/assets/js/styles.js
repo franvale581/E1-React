@@ -246,7 +246,7 @@ export const FeaturedTitle = styled.div`
         font-size: 8rem;
         letter-spacing: 10px;
         text-transform: uppercase;
-        background-image: url(../src/assets/background/hero-bg-2.jpg);
+        background-image: url(../src/assets/images/background/hero-bg-2.jpg);
         background-size: cover;
         filter: drop-shadow(1px 1px #fb8500);
         background-position-y: center;
