@@ -69,11 +69,18 @@ export const NavLogo = styled.img`
     height: 7rem;
     transition: all 0.5s ease-out;
     cursor: pointer;
+@media (max-width: 1200px) {
+    height: 5rem; 
+}
 `
 
 export const NavContainer = styled.ul`
     display: flex;
     gap: 5rem;
+@media (max-width: 1200px) {
+    gap: 2rem;
+    }
+
 `
 
 
@@ -83,6 +90,10 @@ export const NavLink = styled.li`
     font-weight: 400;
     letter-spacing: 1px;
     transition: all .3s ease-out;
+@media (max-width: 1200px) {
+    font-size: 1rem;
+}
+
 `
 
 
@@ -101,6 +112,11 @@ export const CartToggle = styled.div`
     border-radius: 50%;
     cursor: pointer;
     transition: all .3s ease-out;
+@media (max-width: 1200px) {
+    height: 2.8rem;
+    width: 2.8rem;
+}
+
 `
 
 //Header & Nav
@@ -144,6 +160,9 @@ export const SHeroImageContainer = styled.div`
     width: 50%;
     background: #0000;
     padding: 2rem;
+@media (max-width: 740px) {
+    padding: 5rem 0;
+}
 `
 
 export const SHeroImg = styled.img`
@@ -157,6 +176,10 @@ export const SHeroImg = styled.img`
     transform: none;
     height: 12rem;
 }
+@media (max-width: 740px) {
+    height: 10rem;
+}
+
 `
 
 export const SHeroInfoContainer = styled.div`
@@ -210,6 +233,18 @@ export const SHeroInfoContainer = styled.div`
 
 
 }
+
+@media (max-width: 740px) {
+    width: 100%;
+    padding: 0 4rem;
+    & h2 {
+            font-size: 1rem;
+        }
+
+        & p {
+            font-size: 0.8rem;
+        }
+}
 `
 export const BoldText = styled.span`
     color: var(--card-txt-gold);
@@ -236,10 +271,10 @@ align-items: center;
 
 export const FeaturedTitle = styled.div`
     width: 100%;
-    height: 10rem;
+    height: 5rem;
     display: flex;
     justify-content: start;
-    align-items: center;
+    align-items: start;
     font-family: 'Anton', sans-serif;
     margin-left: 5rem;
     & h2 {
@@ -247,20 +282,33 @@ export const FeaturedTitle = styled.div`
         align-items: center;
         justify-content: center;
         color: white;
-        font-size: 3rem;
+        font-size: 2.3rem;
         letter-spacing: 10px;
         background: var(--bg-dark);
         border: 1px solid var(--card-txt-gold);
         height: 4rem;
         width: 20rem;
-        border-radius: 30px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
         transform-style: preserve-3d;
     }
 
 @media (max-width: 1200px) {
+    margin: 0;
+    justify-content: center;
     & h2 {
         font-size: 2.5rem;
-    }}
+        border-radius: 0;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+}
+
+@media (max-width: 740px) {
+    & h2 {
+        font-size: 1.7rem;
+    }
+}
 `
 
 export const FeaturedProductsContainer = styled.div`
