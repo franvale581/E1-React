@@ -238,24 +238,28 @@ export const FeaturedTitle = styled.div`
     width: 100%;
     height: 10rem;
     display: flex;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
     font-family: 'Anton', sans-serif;
+    margin-right: 5rem;
     & h2 {
-        color: transparent;
-        font-size: 8rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 3rem;
         letter-spacing: 10px;
-        text-transform: uppercase;
-        background-image: url(../src/assets/images/background/hero-bg-2.jpg);
-        background-size: cover;
-        filter: drop-shadow(1px 1px #fb8500);
-        background-position-y: center;
-        -webkit-background-clip: text;
+        background: var(--bg-dark);
+        border: 1px solid var(--card-txt-gold);
+        height: 4rem;
+        width: 20rem;
+        border-radius: 30px;
+        transform-style: preserve-3d;
     }
 
 @media (max-width: 1200px) {
     & h2 {
-        font-size: 4rem;
+        font-size: 2.5rem;
     }}
 `
 
