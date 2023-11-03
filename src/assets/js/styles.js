@@ -238,10 +238,10 @@ export const FeaturedTitle = styled.div`
     width: 100%;
     height: 10rem;
     display: flex;
-    justify-content: end;
+    justify-content: start;
     align-items: center;
     font-family: 'Anton', sans-serif;
-    margin-right: 5rem;
+    margin-left: 5rem;
     & h2 {
         display: flex;
         align-items: center;
