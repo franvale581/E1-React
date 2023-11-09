@@ -1,10 +1,10 @@
 import './index.css'
 import React, { useEffect } from 'react';
 import { FirstHero } from './components/hero';
-import { HeaderNav } from './components/header';
-import { SecondHero } from './components/hero-2';
-import { FooterSection } from './components/footer';
-import { FeaturedSection } from './components/featured';
+import { HeaderNav } from './components/Header/header';
+import { SecondHero } from './components/Hero-2/hero-2';
+import { FooterSection } from './components/Footer/footer';
+import { FeaturedSection } from './components/Featured/featured';
 
 function App() {
 

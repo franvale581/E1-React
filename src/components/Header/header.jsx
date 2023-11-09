@@ -1,5 +1,5 @@
-import { CartToggle, HeaderStyles, NavContainer, NavFeatured, NavLink, NavLogo } from "../assets/js/styles"
-import NavLogoImg from "../assets/images/logo/logo-nav.png"
+import { CartToggle, HeaderStyles, NavContainer, NavFeatured, NavLink, NavLogo } from "./headerStyles"
+import NavLogoImg from "../../assets/images/logo/logo-nav.png"
 
 export function HeaderNav() {
     return(

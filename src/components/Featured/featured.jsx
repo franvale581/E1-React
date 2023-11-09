@@ -1,7 +1,7 @@
-import { FeaturedCard, FeaturedContainer, FeaturedProductsContainer, FeaturedImg, FeaturedInfo, FeaturedButton, FeaturedTitle } from "../assets/js/styles";
-import BuzoVintageImg from "../assets/images/featured/buzo-vintage-2000s.jpg"
-import ParachuteCargoImg from "../assets/images/featured/parachute-cargo.jpg"
-import PolleraY2kImg from "../assets/images/featured/pollera-Y2K-jean.jpg"
+import { FeaturedCard, FeaturedContainer, FeaturedProductsContainer, FeaturedImg, FeaturedInfo, FeaturedButton, FeaturedTitle } from "./featuredStyles";
+import BuzoVintageImg from "../../assets/images/featured/buzo-vintage-2000s.jpg"
+import ParachuteCargoImg from "../../assets/images/featured/parachute-cargo.jpg"
+import PolleraY2kImg from "../../assets/images/featured/pollera-Y2K-jean.jpg"
 
 export function FeaturedSection() {
     return (

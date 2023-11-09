@@ -1,5 +1,5 @@
-import { BoldText, SHeroContainer, SHeroImageContainer, SHeroImg, SHeroInfoContainer, SecondHeroSection } from "../assets/js/styles"
-import LogoFondo  from "../assets/images/logo/logo-fondo.jpg"
+import { BoldText, SHeroContainer, SHeroImageContainer, SHeroImg, SHeroInfoContainer, SecondHeroSection } from "./hero-2styles"
+import LogoFondo from "../../assets/images/logo/logo-fondo.jpg"
 
 
 export function SecondHero() {
