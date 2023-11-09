@@ -47,13 +47,13 @@ function App() {
     <>
     {/* <FirstHero></FirstHero> */}
 
-    <HeaderNav></HeaderNav>
+    <HeaderNav/>
 
-    <SecondHero></SecondHero>
+    <SecondHero/>
 
-    <FeaturedSection></FeaturedSection>
+    <FeaturedSection/>
 
-    <FooterSection></FooterSection>
+    <FooterSection/>
 
     </>
   )
