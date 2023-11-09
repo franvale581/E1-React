@@ -45,11 +45,22 @@ export const NavLink = styled.li`
     font-size: 1rem;
 }
 
+@media (max-width: 768px) {
+    display: none;
+}
 `
 
 
 export const NavFeatured = styled.span`
     font-weight: 800;
+`
+
+export const ToggleContainer = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 1rem;
 `
 
 export const CartToggle = styled.div`
@@ -58,6 +69,7 @@ export const CartToggle = styled.div`
     height: 3.8rem;
     width: 3.8rem;
     display: flex;
+    color: white;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
@@ -68,6 +80,35 @@ export const CartToggle = styled.div`
     width: 2.8rem;
 }
 
+@media (max-width: 768px) {
+    margin: 0;
+}
+
+`
+export const MenuToggleContainer = styled.div`
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 2.8rem;
+    width: 2.8rem;
+    border: 2px solid var(--bg-grey);
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    transition: all .3s ease-out;
+
+    &:hover {
+    transform: scale(1.05);
+    border: 1px solid white;
+    box-shadow: 0 0px 6px var(--card-txt-gold);
+    background: var(--card-txt-gold);
+    transition: all .3s ease-in;
+    }
+
+@media (max-width: 768px) {
+    display: flex;
+    margin-right: 1rem;
+}
 `
 
 //Header & Nav

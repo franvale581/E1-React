@@ -1,5 +1,9 @@
-import { CartToggle, HeaderStyles, NavContainer, NavFeatured, NavLink, NavLogo } from "./headerStyles"
+import { CartToggle, HeaderStyles, MenuToggleContainer, NavContainer, NavFeatured, NavLink, NavLogo, ToggleContainer } from "./headerStyles"
 import NavLogoImg from "../../assets/images/logo/logo-nav.png"
+
+import { AiOutlineMenu } from 'react-icons/ai'
+import { GiShoppingCart } from 'react-icons/gi'
+
 
 export function HeaderNav() {
     return(
@@ -29,10 +33,14 @@ export function HeaderNav() {
             </NavContainer>
         </nav>
 
-        <CartToggle className="cart-toggle">
-            <i className="fa-brands fa-shopify fa-2x" ></i>
-        </CartToggle>
-
+        <ToggleContainer>
+        <MenuToggleContainer>
+            <AiOutlineMenu style={{ fontSize: '1.2em' }}/>
+        </MenuToggleContainer>
+            <CartToggle className="cart-toggle">
+            <GiShoppingCart style={{ fontSize: '1.4em' }}/>
+            </CartToggle>
+        </ToggleContainer>
     </HeaderStyles>
 
     )

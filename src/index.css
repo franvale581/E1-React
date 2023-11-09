@@ -137,11 +137,6 @@ html {
     transition: all .3s ease-in;
 }
 
-.fa-shopify {
-    color: var(--bg-grey);
-    transition: all .3s ease-out;
-}
-
 .cart-toggle:hover .fa-shopify {
     color: white;
     transition: all .3s ease-in;
