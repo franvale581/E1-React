@@ -74,7 +74,6 @@ export const SHeroInfoContainer = styled.div`
         font-family: 'Cinzel', serif;
         font-size: 1.8rem;
         color: var(--card-txt-gold);
-        text-shadow: 1px 1px 0px white;
         letter-spacing: 1px;
         transition: all 0.5s ease-out;
     }
@@ -87,7 +86,6 @@ export const SHeroInfoContainer = styled.div`
         font-weight: 600;
         color: white;
         line-height: 40px;
-        text-shadow: 1px 1px 0px var(--card-txt-gold);
         transition: all 0.5s ease-out;
     }
 

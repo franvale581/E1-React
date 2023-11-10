@@ -20,6 +20,10 @@ export const NavLogo = styled.img`
     height: 7rem;
     transition: all 0.5s ease-out;
     cursor: pointer;
+    &:hover {
+        filter: drop-shadow(0 0 0.75rem #fb8600);
+        transition: all 0.5s ease-in;
+    }
 @media (max-width: 1200px) {
     height: 5rem; 
 }
@@ -40,7 +44,24 @@ export const NavLink = styled.li`
     font-family: 'Cinzel', serif;
     font-weight: 400;
     letter-spacing: 1px;
-    transition: all .3s ease-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.3rem;
+    width: 8rem;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: all .5s ease-out;
+    &:hover {
+        transform: scale(0.97);
+        box-shadow: 0 0 0 1px var(--card-txt-gold);
+        transition: all .2s ease-in;
+    }
+
+    a {
+        color: var(--card-txt-gold);
+    }
+
 @media (max-width: 1200px) {
     font-size: 1rem;
 }

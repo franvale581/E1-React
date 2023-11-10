@@ -21,23 +21,22 @@ export const FeaturedTitle = styled.div`
     width: 100%;
     height: 5rem;
     display: flex;
-    justify-content: start;
-    align-items: start;
-    font-family: 'Anton', sans-serif;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Cinzel', serif;
     margin-left: 5rem;
     & h2 {
         display: flex;
         align-items: center;
         justify-content: center;
-        color: white;
+        color: #e2711d;
         font-size: 2.3rem;
         letter-spacing: 10px;
-        background: var(--bg-dark);
+        background: dark;
         border: 1px solid var(--card-txt-gold);
-        height: 4rem;
-        width: 20rem;
-        border-bottom-left-radius: 15px;
-        border-bottom-right-radius: 15px;
+        height: 5rem;
+        width: 80%;
+        border-radius: 40px;
         transform-style: preserve-3d;
     }
 
@@ -46,9 +45,6 @@ export const FeaturedTitle = styled.div`
     justify-content: center;
     & h2 {
         font-size: 2.5rem;
-        border-radius: 0;
-        border-bottom-left-radius: 15px;
-        border-bottom-right-radius: 15px;
     }
 }
 
@@ -81,7 +77,7 @@ justify-content: flex-start;
 align-items: center;
 border-radius: 5px;
 overflow: hidden;
-filter: invert(20%);
+filter: invert(7%);
 transition: all 0.3s ease-out;
     &:hover {
         filter: invert(0%);
@@ -121,13 +117,14 @@ position: absolute;
 bottom: 0;
 width: 100%;
 padding: 1rem;
-color: white;
+color: #e2711d;
 display: flex;
 gap: 1rem;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-border-top: 1px solid var(--ft-bg-green);
+border-top: 1px solid var(--card-txt-gold);
+text-align: center;
 transition: all 0.4s ease-out;
 
 h2 {
@@ -139,7 +136,7 @@ h2 {
   font-weight: 800;
   width: 100%;
   height: 2rem;
-  color: var(--ft-bg-green);
+  color: white;
   text-shadow: 1px 1px 0px black;
   letter-spacing: 1px;
 }
@@ -155,20 +152,18 @@ font-size: 0.7rem;
 font-weight: 800;
 width: 70%;
 background: var(--bg-dark);
-color: var(--ft-bg-green);
-box-shadow: 0 0 1px 1px var(--ft-bg-green);
+color: #e2711d;
+box-shadow: 0 0 1px 1px var(--card-txt-gold);
 padding: 0.5rem 1rem;
 border: none;
 border-radius: 5px;
 cursor: pointer;
-transition: all 0.3s ease-out;
+transition: all 0.2s ease-out;
 
 &:hover {
-  background: var(--ft-bg-green);
+    transform: scale(1.05);
   color: white;
-  text-shadow: 1px 1px 0px black;
-  box-shadow: 0 0 2px 1px var(--ft-bg);
-  transition: all 0.3s ease-in;
+  transition: all 0.2s ease-in;
 }
 `
 

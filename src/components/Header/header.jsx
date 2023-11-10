@@ -17,20 +17,20 @@ export function HeaderNav() {
         <nav >
             <NavContainer>
 
-                <NavLink className="nav-link">
+                <NavLink>
                     <a href="#second-hero">Home</a>
                 </NavLink>
-                <NavLink className="nav-link">
+                <NavLink>
                     <a href="#featured-section"><NavFeatured>Featured</NavFeatured></a>
                 </NavLink>
-                <NavLink className="nav-link">
+                <NavLink >
                     <a href="#">Products</a>
                 </NavLink>
-                <NavLink className="nav-link">
+                <NavLink>
                     <a href="#">Contact</a>
                 </NavLink>
-
             </NavContainer>
+
         </nav>
 
         <ToggleContainer>

@@ -20,8 +20,8 @@ export function FeaturedSection() {
             </FeaturedImg>
             <FeaturedInfo className="featured-info">
               <h2>Buzo Vintage 2000's</h2>
-              <p>Descripción del producto.</p>
-              <p>Precio: $XX.XX</p>
+              <p>Cuello redondo, talle M (55cm) en tela microfibra.</p>
+              <p>Precio: $12000</p>
               <FeaturedButton>Comprar</FeaturedButton>
             </FeaturedInfo>
           </FeaturedCard>
@@ -33,8 +33,8 @@ export function FeaturedSection() {
             </FeaturedImg>
             <FeaturedInfo className="featured-info">
               <h2>Parachute Cargo</h2>
-              <p>Descripción del producto.</p>
-              <p>Precio: $XX.XX</p>
+              <p>Talle M (95cm), tela microfibra.</p>
+              <p>Precio: $15000</p>
               <FeaturedButton>Comprar</FeaturedButton>
             </FeaturedInfo>
           </FeaturedCard>
@@ -46,7 +46,7 @@ export function FeaturedSection() {
             </FeaturedImg>
             <FeaturedInfo className="featured-info">
               <h2>Pollera Y2K Jean</h2>
-              <p>Descripción del producto.</p>
+              <p>Talle M, tela Jean.</p>
               <p>Precio: $XX.XX</p>
               <FeaturedButton>Comprar</FeaturedButton>
             </FeaturedInfo>
