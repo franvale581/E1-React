@@ -39,8 +39,14 @@ export const SHeroImageContainer = styled.div`
     width: 50%;
     background: #0000;
     padding: 2rem;
+/* tablet */ 
 @media (max-width: 740px) {
     padding: 5rem 0;
+}
+/* mobile */
+@media (max-width: 576px) {
+    padding-top: 0;
+    padding-bottom: 3rem;
 }
 `
 
@@ -56,10 +62,14 @@ export const SHeroImg = styled.img`
     transform: none;
     height: 12rem;
 }
+/* tablet */ 
 @media (max-width: 740px) {
     height: 10rem;
 }
-
+/* mobile */
+@media (max-width: 576px) {
+    height: 8rem;
+}
 `
 
 export const SHeroInfoContainer = styled.div`
@@ -111,7 +121,7 @@ export const SHeroInfoContainer = styled.div`
 
 
 }
-
+/* tablet */ 
 @media (max-width: 740px) {
     width: 100%;
     padding: 0 4rem;
@@ -122,6 +132,10 @@ export const SHeroInfoContainer = styled.div`
         & p {
             font-size: 0.8rem;
         }
+}
+/* mobile */
+@media (max-width: 576px) {
+    padding: 2rem;
 }
 `
 export const BoldText = styled.span`
