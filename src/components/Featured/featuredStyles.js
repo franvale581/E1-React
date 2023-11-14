@@ -147,7 +147,7 @@ gap: 1rem;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-border-top: 5px solid var(--card-txt-gold);
+border-top: 3px solid var(--card-txt-gold);
 text-align: center;
 transition: all 0.4s ease-out;
 
@@ -167,6 +167,11 @@ h2 {
 
 p {
   font-size: 0.8rem;
+}
+/* mobile */
+@media (max-width: 576px) {
+    border-top: 1px solid var(--card-txt-gold);
+    box-shadow: 1px 0 8px 0 var(--card-txt-gold) ;
 }
 `
 
