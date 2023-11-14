@@ -105,6 +105,11 @@ transition: all 0.3s ease-out;
     box-shadow: 0 0 0 0 var(--card-txt-gold);
     border-top: 1px solid var(--card-txt-gold);
     border-bottom: 2px solid var(--card-txt-gold);
+    border-left: 1px solid var(--card-txt-gold);
+    border-right: 1px solid var(--card-txt-gold);
+    &:hover {
+        box-shadow: 0 0 8px 1px var(--card-txt-gold);
+    }
 }
 `
 
