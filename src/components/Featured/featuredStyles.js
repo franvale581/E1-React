@@ -53,6 +53,16 @@ export const FeaturedTitle = styled.div`
         font-size: 1.7rem;
     }
 }
+/* mobile */
+@media (max-width: 576px) {
+    & h2 {
+        height: 3.3rem;
+        width: 100%;
+        border-radius: 0;
+        border-left: none;
+        border-right: none;
+    }
+}
 `
 
 export const FeaturedProductsContainer = styled.div`
@@ -87,6 +97,14 @@ transition: all 0.3s ease-out;
 
 @media (max-width: 1200px) {
     width:  22rem;
+}
+/* mobile */
+@media (max-width: 576px) {
+    width: 90%;
+    border-radius: 0;
+    box-shadow: 0 0 0 0 var(--card-txt-gold);
+    border-top: 1px solid var(--card-txt-gold);
+    border-bottom: 2px solid var(--card-txt-gold);
 }
 `
 
