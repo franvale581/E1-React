@@ -31,6 +31,15 @@ export const FooterTop = styled.div`
         height: 2px;
         background: #202020;
     }
+/* mobile */
+@media (max-width: 576px) {
+    & img {
+        height: 3.8rem;
+    }
+    & small {
+        width: 80%;
+    }
+}
 `
 
 export const FooterMid = styled.div`
@@ -52,6 +61,17 @@ export const FooterMid = styled.div`
     & i {
         transition: all 0.3s ease-out;
     }
+    /* mobile */
+@media (max-width: 576px) {
+    gap: 3rem;
+    & a {
+        width: 2.3rem;
+        height: 2.3rem;
+    }
+    & i {
+        font-size: 1.4rem;
+    }
+}
 `
 
 export const FooterBottom = styled.div`
