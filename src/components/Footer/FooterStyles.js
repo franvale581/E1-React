@@ -10,7 +10,8 @@ export const FooterContainer = styled.footer`
     align-items: center;
     background: var(--card-hero);
     border-top: 2px solid #202020;
-    gap: 4rem;    
+    gap: 4rem;
+    user-select: none;    
 `
 
 export const FooterTop = styled.div`

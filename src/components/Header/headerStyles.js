@@ -20,6 +20,7 @@ export const NavLogo = styled.img`
     height: 7rem;
     transition: all 0.5s ease-out;
     cursor: pointer;
+    user-select: none;
     &:hover {
         filter: drop-shadow(0 0 0.75rem #fb8600);
         transition: all 0.5s ease-in;
@@ -32,6 +33,7 @@ export const NavLogo = styled.img`
 export const NavContainer = styled.ul`
     display: flex;
     gap: 5rem;
+    user-select: none;
 @media (max-width: 1200px) {
     gap: 2rem;
     }
@@ -82,6 +84,7 @@ export const ToggleContainer = styled.div`
     align-items: center;
     flex-direction: row-reverse;
     gap: 1rem;
+    user-select: none;
 `
 
 export const CartToggle = styled.div`
@@ -116,6 +119,7 @@ export const MenuToggleContainer = styled.div`
     border-radius: 50%;
     color: white;
     cursor: pointer;
+    user-select: none;
     transition: all .3s ease-out;
 
     &:hover {

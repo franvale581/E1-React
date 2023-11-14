@@ -11,6 +11,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+user-select: none;
 
 @media (max-width: 1200px) {
     height: 125rem;
@@ -24,7 +25,6 @@ export const FeaturedTitle = styled.div`
     justify-content: center;
     align-items: center;
     font-family: 'Cinzel', serif;
-    margin-left: 5rem;
     & h2 {
         display: flex;
         align-items: center;
@@ -60,7 +60,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 width: 100%;
-gap: 3rem;
+gap: 5.5rem;
 
 @media (max-width: 1200px) {
     flex-direction: column;
@@ -75,8 +75,9 @@ display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: center;
-border-radius: 5px;
+border-radius: 15px;
 overflow: hidden;
+box-shadow: 0 0 1px 1px var(--card-txt-gold);
 filter: invert(7%);
 transition: all 0.3s ease-out;
     &:hover {
@@ -123,7 +124,7 @@ gap: 1rem;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-border-top: 1px solid var(--card-txt-gold);
+border-top: 5px solid var(--card-txt-gold);
 text-align: center;
 transition: all 0.4s ease-out;
 

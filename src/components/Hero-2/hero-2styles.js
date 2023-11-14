@@ -49,6 +49,7 @@ export const SHeroImg = styled.img`
     height: 24rem;
     border-radius: 50%;
     box-shadow: 3px 2px 5px 2px black;
+    user-select: none;
     transition: all 0.5s ease-out;
 
 @media (max-width: 1200px) {

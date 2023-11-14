@@ -20,6 +20,9 @@
     margin: 0;
     text-decoration: none;
     list-style: none;
+    &::selection {
+        background: var(--ft-bg-green);
+    }
 }
 
 html {
