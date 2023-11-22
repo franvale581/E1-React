@@ -37,6 +37,27 @@ export const NavContainer = styled.ul`
 @media (max-width: 1200px) {
     gap: 2rem;
     }
+@media (max-width: 768px) {
+    display: ${props => (props.isOpen ? 'flex' : 'none')};
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    position: absolute;
+    top: 5.8rem;
+    right: 0;
+    width: 100%;
+    height: 20rem;
+    background-color: var(--card-hero);
+    border-bottom: 2px solid var(--card-txt-gold);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top: 1px solid var(--card-txt-gold);
+    z-index: 3;
+    &:first-child {
+        padding-top: 1.5rem;
+    }
+  }
 
 `
 
@@ -69,8 +90,24 @@ export const NavLink = styled.li`
 }
 
 @media (max-width: 768px) {
-    display: none;
+    &:hover {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 var(--card-txt-gold);
+        width: 100%;
+        height: 3rem;
+        border-radius: 0;
+        border-top: 1px solid var(--card-txt-gold);
+        border-bottom: 1px solid var(--card-txt-gold);
+        background: var(--ft-bg-green);
+        transition: all .2s ease-in;
+        
+    }
+
+    &:hover a {
+        color: white;
+    }
 }
+
 `
 
 

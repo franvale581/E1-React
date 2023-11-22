@@ -8,10 +8,10 @@ export function FeaturedSection() {
       <FeaturedContainer id="featured-section">
 
         <FeaturedTitle>
-          <h2 className="vibe">Featured</h2>
+          <h2 className="slide-down">Featured</h2>
         </FeaturedTitle>
 
-        <FeaturedProductsContainer>
+        <FeaturedProductsContainer className="slide-down">
 
         {/*product 1*/}        
           <FeaturedCard className="featured-card">

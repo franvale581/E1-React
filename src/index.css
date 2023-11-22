@@ -105,10 +105,12 @@ html {
 
 @keyframes slide-down {
     0% {
+        opacity: 0;
         transform: translateY(-500px);
     }
 
     50% {
+        opacity: 1;
         transform: translateY(50px);
     }
 }
