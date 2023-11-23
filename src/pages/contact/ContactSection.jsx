@@ -6,6 +6,10 @@ import { TfiLocationPin } from "react-icons/tfi";
 import { TfiCheck } from "react-icons/tfi";
 
 export const ContactSection = () => {
+    const handleSubmit = (event) => {
+        event.preventDefault();
+        //prevengo el evento que recarga la pagina al dar submit porque genera un error
+    }
     return (
         <>
 
@@ -59,7 +63,7 @@ export const ContactSection = () => {
 
                 <ContactFormContainer>
                     <div class="form-container">
-                        <form class="form">
+                        <form class="form" onSubmit={handleSubmit}>
                             <div class="form-group">
                                 <label for="name">Nombre Completo</label>
                                 <input name="name" id="name" type="text" />
