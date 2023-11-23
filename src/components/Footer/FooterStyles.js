@@ -34,7 +34,7 @@ export const FooterTop = styled.div`
 /* mobile */
 @media (max-width: 576px) {
     & img {
-        height: 3.8rem;
+        height: 5rem;
     }
     & small {
         width: 80%;

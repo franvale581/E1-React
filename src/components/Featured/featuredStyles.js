@@ -19,6 +19,8 @@ user-select: none;
 `
 
 export const FeaturedTitle = styled.div`
+    position: absolute;
+    top: 8rem;
     width: 100%;
     height: 5rem;
     display: flex;

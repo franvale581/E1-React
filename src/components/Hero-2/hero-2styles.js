@@ -137,6 +137,15 @@ export const SHeroInfoContainer = styled.div`
 @media (max-width: 576px) {
     padding: 2rem;
 }
+@media (max-width: 576px) {
+    padding: 1rem 0;
+    & h2 {
+        font-size: 0.8rem;
+    }
+    & p {
+        font-size: 0.7rem;
+    }
+}
 `
 export const BoldText = styled.span`
     color: var(--card-txt-gold);

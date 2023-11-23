@@ -28,3 +28,7 @@ export const ProductBanner = styled.div`
         letter-spacing: 4px;
     }
 `
+
+export const ProductsContainer = styled.div`
+    
+`

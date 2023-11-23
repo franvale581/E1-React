@@ -6,6 +6,7 @@ import { FooterSection } from './components/Footer/footer';
 import { FeaturedSection } from './components/Featured/featured';
 import { Route, Routes } from 'react-router-dom';
 import { ProductsPage } from './pages/products/productsPage';
+import { ContactSection } from './pages/contact/ContactSection';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/" element={<SecondHero />} />
         <Route path="/featured" element={<FeaturedSection />} />
         <Route path="/products" element={<ProductsPage />} />
+        <Route path="/contact" element={<ContactSection />} />
       </Routes>
       <FooterSection/>
     </>

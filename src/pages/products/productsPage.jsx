@@ -1,7 +1,6 @@
 import React from 'react'
 import { ProductBanner, ProductSection } from './productsStyled';
 
-
 export const ProductsPage = () => {
   return (
     <>
@@ -9,7 +8,7 @@ export const ProductsPage = () => {
       <h2 className='vibe'>Products #1 Drop</h2>
     </ProductBanner>
     <ProductSection>
-
+      
     </ProductSection>
 
     
