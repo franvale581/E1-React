@@ -76,7 +76,7 @@ export const ContactSection = () => {
                                 <label for="textarea">Especifica Tu Pedido</label>
                                 <textarea required="" cols="50" rows="10" id="textarea" name="textarea"></textarea>
                             </div>
-                            <button type="submit" class="form-submit-btn">Enviar</button>
+                            <button type="button" class="form-submit-btn">Enviar</button>
                         </form>
                     </div>    
                 </ContactFormContainer>
