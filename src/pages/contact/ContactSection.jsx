@@ -26,8 +26,8 @@ export const ContactSection = () => {
                                 <p class="card-info-front">Ver más</p>
                             </div>
                             <div class="flip-card-back">
-                                <p class="card-title">BACK</p>
-                                <p class="card-info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod nulla velit suscipit numquam eius molestias expedita impedit aspernatur ipsam enim iusto minus eos perferendis cumque assumenda officia itaque, eveniet maiores.</p>
+                                <p class="card-title">PEDIDO PERSONALIZADO</p>
+                                <p class="card-info">Debajo de estas instrucciones te encontraras con un formulario para rellenar y especificar los detalles del producto que se desea confeccionar. </p>
                             </div>
                         </div>
                     </div>
@@ -40,8 +40,8 @@ export const ContactSection = () => {
                                 <p class="card-info-front">Ver más</p>
                             </div>
                             <div class="flip-card-back">
-                                <p class="card-title">BACK</p>
-                                <p class="card-info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod nulla velit suscipit numquam eius molestias expedita impedit aspernatur ipsam enim iusto minus eos perferendis cumque assumenda officia itaque, eveniet maiores.</p>
+                                <p class="card-title">TIEMPO DE ESPERA</p>
+                                <p class="card-info">Una vez entregada la informacion Mateo se pondra en contacto para confirmar el pedido y empezar a trabajar en la prenda. El tiempo de demora de confeccion sera especificado antes de empezar.</p>
                             </div>
                         </div>
                     </div>
@@ -54,8 +54,8 @@ export const ContactSection = () => {
                                 <p class="card-info-front">Ver más</p>
                             </div>
                             <div class="flip-card-back">
-                                <p class="card-title">BACK</p>
-                                <p class="card-info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod nulla velit suscipit numquam eius molestias expedita impedit aspernatur ipsam enim iusto minus eos perferendis cumque assumenda officia itaque, eveniet maiores.</p>
+                                <p class="card-title">ENVIOS</p>
+                                <p class="card-info">Se realizan envios gratis al interior de Cordoba Capital, de no ser el caso se enviara por correa a contrapago.</p>
                             </div>
                         </div>
                     </div>
