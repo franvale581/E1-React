@@ -98,7 +98,7 @@ export const NavLink = styled.li`
         border-radius: 0;
         border-top: 1px solid var(--card-txt-gold);
         border-bottom: 1px solid var(--card-txt-gold);
-        background: var(--ft-bg-green);
+        background: transparent;
         transition: all .2s ease-in;
         
     }

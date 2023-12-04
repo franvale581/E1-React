@@ -7,7 +7,7 @@ export function SecondHero() {
 
         <SecondHeroSection id="second-hero">
 
-        <SHeroContainer className='second-hero-container'>
+        <SHeroContainer className='second-hero-container fluid-opacity'>
   
           <SHeroImageContainer>
             <SHeroImg src={LogoFondo} alt="hero-logo"></SHeroImg>

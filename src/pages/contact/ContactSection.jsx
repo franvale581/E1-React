@@ -17,7 +17,7 @@ export const ContactSection = () => {
                 <ContactTitle>
                     <h2>¡Realizá tu pedido personalizado!</h2>
                 </ContactTitle>
-                <ContactCards className='vibe'>
+                <ContactCards>
                     <div class="flip-card">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">

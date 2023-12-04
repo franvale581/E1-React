@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import BgProductsImg from '../../assets/images/background/hero-bg-2.jpg';
 
 export const ProductSection = styled.section`
     height: 300vh;
@@ -32,9 +33,10 @@ export const ProductBanner = styled.div`
         font-size: 2.3rem;
         letter-spacing: 10px;
         border: 1px solid var(--card-txt-gold);
+        border-left:none;
+        border-right:none;
         height: 5rem;
-        width: 80%;
-        border-radius: 40px;
+        width: 100%;
         transform-style: preserve-3d;
     }
 
@@ -87,12 +89,8 @@ export const ProductsContainer = styled.div`
             flex-direction: column;
             font-family: 'Cinzel', serif;
             gap: 1rem;
-            background-image: linear-gradient(to top, #0d1b2a, #162637, #1f3146, #293d54, #334963, #334963, #334963, #334963, #293d54, #1f3146, #162637, #0d1b2a);
-            border: 1px solid var(--card-txt-gold);
-            border-right: 3px solid var(--card-txt-gold);
-            border-left: 2px solid var(--card-txt-gold);
-            border-bottom: 3px solid var(--card-txt-gold);
-            box-shadow: 2px 2px 4px 4px black;
+            background: var(--bg-products);
+            box-shadow: 1px 1px 4px 2px black;
             border-radius: 5px;
         }
         .product-img {
@@ -104,22 +102,21 @@ export const ProductsContainer = styled.div`
             border-top: 3px solid var(--card-txt-gold);
             border-bottom: 2px solid var(--card-txt-gold);
             border-bottom-left-radius:  2px;
-            background-image: linear-gradient(to left top, #001219, #09161c, #10191f, #151d22, #1a2025, #1a2025, #1a2025, #1a2025, #151d22, #10191f, #09161c, #001219);
+            background-image: url(${BgProductsImg});
+            background-size: contain;
 
             }
             & img {
-                width: 12rem;
-                height: 20rem;
-                border-radius: 2px;
-                z-index: 1;
+                width: 12.8rem;
+                height: 21.3rem;
+                box-shadow: 0px 0px 3px 2px var(--bg-products);
             }
         & h4 {
             padding-top: .8rem;
-            font-size: .9rem;
+            font-size: 1rem;
             font-weight: 800;
             color: var(--card-txt-gold);
-            letter-spacing: 1px;
-            text-shadow: 2px 2px #ae2012;
+            letter-spacing: 2px;
         }
         
         .product-info-mid {

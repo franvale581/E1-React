@@ -36,9 +36,10 @@ export const FeaturedTitle = styled.div`
         letter-spacing: 10px;
         background: dark;
         border: 1px solid var(--card-txt-gold);
+        border-left: none;
+        border-right: none;
         height: 5rem;
-        width: 80%;
-        border-radius: 40px;
+        width: 100%;
         transform-style: preserve-3d;
     }
 

@@ -138,7 +138,8 @@ export const SHeroInfoContainer = styled.div`
     padding: 2rem;
 }
 @media (max-width: 576px) {
-    padding: 1rem 0;
+    margin-top: 3rem;
+    padding: 1rem;
     & h2 {
         font-size: 0.8rem;
     }

@@ -129,8 +129,9 @@ export const ContactTitle = styled.div`
         background: dark;
         border: 1px solid var(--card-txt-gold);
         height: 5rem;
-        width: 80%;
-        border-radius: 40px;
+        width: 100%;
+        border-left: none;
+        border-right: none;
         transform-style: preserve-3d;
     }
 

@@ -8,7 +8,7 @@ import { TbShoppingCartUp } from "react-icons/tb";
 const Product = ({ product }) => {
   const { id, name, talle, precio, tela, imagen } = product;
   return (
-      <div className="product">
+      <div className="product fluid-opacity">
           <h4>{name}</h4>
           <div className="product-img">
               <img src={imagen} alt={name} />
@@ -39,7 +39,7 @@ export const ProductsPage = () => {
   return (
     <>
     <ProductBanner>
-      <h2 className='vibe'>Products #1 Drop</h2>
+      <h2>Products #1 Drop</h2>
     </ProductBanner>
     <ProductSection>
       <ProductsContainer>
