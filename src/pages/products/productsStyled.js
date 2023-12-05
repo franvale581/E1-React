@@ -2,19 +2,24 @@ import styled from 'styled-components';
 import BgProductsImg from '../../assets/images/background/hero-bg-2.jpg';
 
 export const ProductSection = styled.section`
-    height: 300vh;
+    height: 100%;
+    padding: 12rem 0;
     width: 100%; 
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background: var(--card-hero);
-@media (max-width: 1160px) {
-    height: 470vh;
-}
-@media (max-width: 751px) {
-    height: 850vh;
-}
+    
+    //clase auxiliar para los filtros seleccionados
+    .selected {
+        transform: scale(0.99);
+        color: var(--card-txt-gold);
+        border: 2px solid var(--card-txt-gold);
+        box-shadow: 0 0 15px 1px var(--bg-dark);
+        background: white;
+        transition: all 0.3s ease-in;
+     }
 `
 
 export const ProductBanner = styled.div`
@@ -64,6 +69,38 @@ export const ProductBanner = styled.div`
         border-right: none;
     }
 }
+`
+export const ProductFilters = styled.div`
+    top: 15rem;
+    position: absolute;
+    height: 4rem;
+    width: 100%;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+`
+export const ProductFilterBtn = styled.button`
+    width: 6rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background: transparent;
+    border: 2px solid var(--bg-dark);
+    color: var(--bg-grey);
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+     &:hover {
+        transform: scale(0.99);
+        color: var(--card-txt-gold);
+        border: 2px solid var(--card-txt-gold);
+        box-shadow: 0 0 15px 1px var(--bg-dark);
+        background: white;
+        transition: all 0.3s ease-in;
+     }
 `
 
 export const ProductsContainer = styled.div`

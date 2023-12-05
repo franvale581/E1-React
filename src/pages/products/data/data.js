@@ -17,6 +17,7 @@ export const ProductsData = [
         talle: 'M',
         tela: 'microfibra',
         imagen: BuzoVintage,
+        category: 'Buzo',
     },
     {
         id:2,
@@ -25,6 +26,7 @@ export const ProductsData = [
         talle: 'M',
         tela: 'microfibra',
         imagen: ParachuteCargo,
+        category: 'Pantalon',
     },
     {
         id:3,
@@ -33,6 +35,7 @@ export const ProductsData = [
         talle: 'M',
         tela: 'Jean',
         imagen: PolleraY2K,
+        category: 'Pollera',
     },
     {
         id:4,
@@ -41,6 +44,7 @@ export const ProductsData = [
         talle: 'M',
         tela: 'microfibra',
         imagen: BuzoGround,
+        category: 'Buzo',
     },
     {
         id:5,
@@ -49,6 +53,7 @@ export const ProductsData = [
         talle: 'M',
         tela: 'microfibra',
         imagen: PantalonDeportivoGround,
+        category: 'Pantalon',
     },
     {
         id:6,
@@ -57,6 +62,7 @@ export const ProductsData = [
         talle: 'M',
         tela: 'Jean',
         imagen: ParachuteGrisPerlado,
+        category: 'Pantalon',
     },
     {
         id:7,
@@ -65,6 +71,7 @@ export const ProductsData = [
         talle: 'M',
         tela: 'microfibra',
         imagen: ParachuteAzul,
+        category: 'Pantalon',
     },
     {
         id:8,
@@ -73,6 +80,7 @@ export const ProductsData = [
         talle: 'M',
         tela: 'microfibra',
         imagen: BuzoCuellitoGround,
+        category: 'Buzo',
     },
     {
         id:9,
@@ -81,6 +89,7 @@ export const ProductsData = [
         talle: 'M',
         tela: 'Jean',
         imagen: ParachuteNegro,
+        category: 'Pantalon',
     }
 
 ];
