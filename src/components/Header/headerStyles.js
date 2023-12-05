@@ -8,7 +8,7 @@ export const HeaderStyles = styled.header`
     background: var(--card-hero);
     position: sticky;
     top: 0;
-    z-index: 3;
+    z-index: 4;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -38,7 +38,8 @@ export const NavContainer = styled.ul`
     gap: 2rem;
     }
 @media (max-width: 768px) {
-    display: ${props => (props.isOpen ? 'flex' : 'none')};
+    transform: translateX(${props => props.isOpen ? '0' : '-100vw'});
+    transition: transform 0.3s ease-in-out, visibility 2s ease-in-out;
     overflow: hidden;
     flex-direction: column;
     align-items: center;
@@ -48,7 +49,8 @@ export const NavContainer = styled.ul`
     right: 0;
     width: 100%;
     height: 20rem;
-    background-color: var(--card-hero);
+    background: transparent;
+    backdrop-filter: blur(40px);
     border-bottom: 2px solid var(--card-txt-gold);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;

@@ -1,8 +1,12 @@
 import { CartToggle, HeaderStyles, MenuToggleContainer, NavContainer, NavFeatured, NavLink, NavLogo, ToggleContainer } from "./headerStyles"
+import { Cart } from "./cartStyles";
+
 import NavLogoImg from "../../assets/images/logo/logo-nav.png"
+
 import { Link } from 'react-router-dom';
 import { useContext } from 'react';
 import { MenuContext } from '../../hooks/MenuContext/menuContext';
+import { CartContext } from "../../hooks/CartContext/cartContext";
 
 import { AiOutlineMenu } from 'react-icons/ai'
 import { GiShoppingCart } from 'react-icons/gi'
@@ -10,13 +14,19 @@ import { GiShoppingCart } from 'react-icons/gi'
 
 export function HeaderNav() {
     const { isOpen, setIsOpen } = useContext(MenuContext);
+    const { isCartOpen, setIsCartOpen } = useContext(CartContext); 
 
     const handleMenuToggle = () => {
         setIsOpen(!isOpen);
       };
 
-    return (
+      const handleCartToggle = () => {
+        setIsCartOpen(!isCartOpen);
+    };
+    
 
+    return (
+        <>
         <HeaderStyles className="header">
 
             <div className="nav-logo-container">
@@ -44,12 +54,13 @@ export function HeaderNav() {
                 <MenuToggleContainer onClick={handleMenuToggle}>
                     <AiOutlineMenu style={{ fontSize: '1.2em' }} />
                 </MenuToggleContainer>
-                <CartToggle className="cart-toggle">
+                <CartToggle className="cart-toggle" onClick={handleCartToggle}>
                     <GiShoppingCart style={{ fontSize: '1.4em' }} />
                 </CartToggle>
             </ToggleContainer>
         </HeaderStyles>
-
+        <Cart isOpen={isCartOpen} />
+        </>
 
     )
 }
