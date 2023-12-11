@@ -13,12 +13,12 @@ export const ProductSection = styled.section`
     
     //clase auxiliar para los filtros seleccionados
     .selected {
-        transform: scale(0.99);
+        transform: scale(0.93);
         color: var(--card-txt-gold);
         border: 2px solid var(--card-txt-gold);
         box-shadow: 0 0 15px 1px var(--bg-dark);
         background: white;
-        transition: all 0.3s ease-in;
+        transition: all 0.2s ease-out;
      }
 `
 
@@ -80,6 +80,14 @@ export const ProductFilters = styled.div`
     align-items: center;
     justify-content: center;
     gap: 2rem;
+    @media (max-width: 510px) {
+        gap: 1rem;
+        padding: 0 5px;
+}
+@media (max-width: 380px) {
+        gap: 0.2rem;
+        padding: 0 5px;
+}
 `
 export const ProductFilterBtn = styled.button`
     width: 6rem;
@@ -94,7 +102,6 @@ export const ProductFilterBtn = styled.button`
     cursor: pointer;
     transition: all 0.3s ease-out;
      &:hover {
-        transform: scale(0.99);
         color: var(--card-txt-gold);
         border: 2px solid var(--card-txt-gold);
         box-shadow: 0 0 15px 1px var(--bg-dark);

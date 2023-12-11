@@ -25,7 +25,8 @@ const Product = ({ product }) => {
         </div>
       </div>
       <div className="product-btn-container">
-        <button data-id={id}
+        <button
+          data-id={id}
           data-name={name}
           data-precio={precio}
           data-imagen={imagen}
